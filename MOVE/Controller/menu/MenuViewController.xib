@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="MOVE" customModuleProvider="target">
+            <connections>
+                <outlet property="avatarHeightConstraint" destination="8R1-TQ-Yrj" id="QfB-bu-UBu"/>
+                <outlet property="avatarImage" destination="rbn-2q-m1E" id="yM0-6J-lgN"/>
+                <outlet property="menuTableView" destination="4Ld-Rv-wYS" id="rbY-zW-vpW"/>
+                <outlet property="usernameLabel" destination="t8i-NA-ISF" id="AKP-eg-WeA"/>
+                <outlet property="verifyAccountImage" destination="Ofa-p0-N5G" id="D7R-oz-OeY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="rbn-2q-m1E">
+                    <rect key="frame" x="20" y="119" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="8R1-TQ-Yrj"/>
+                        <constraint firstAttribute="width" constant="48" id="zfy-X5-HEb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="philip2020" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8i-NA-ISF">
+                    <rect key="frame" x="76" y="132.5" width="93.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hhf-FN-bYY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-verify-account" translatesAutoresizingMaskIntoConstraints="NO" id="Ofa-p0-N5G">
+                    <rect key="frame" x="173.5" y="135" width="17" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="Rtm-ha-UuX"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4Ld-Rv-wYS">
+                    <rect key="frame" x="0.0" y="177" width="414" height="500"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="500" id="ofd-Qp-2wc"/>
+                        <constraint firstAttribute="width" constant="414" id="sCh-sF-tVw"/>
+                    </constraints>
+                    <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="U7B-Zi-gzT">
+                    <rect key="frame" x="20" y="784" width="115" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="JpA-0q-jlj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Terms of Service">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapTermOfServiceAction:" destination="-1" eventType="touchUpInside" id="Wrc-XP-hfB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="thF-6D-dMy">
+                    <rect key="frame" x="20" y="814" width="96" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="eRN-cl-00E"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Privacy Policy">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapPrivacyPolicyAction:" destination="-1" eventType="touchUpInside" id="mig-7a-F7Y"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-close" translatesAutoresizingMaskIntoConstraints="NO" id="Mgh-e0-rg6">
+                    <rect key="frame" x="20" y="64" width="20" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="1aa-BQ-MUU"/>
+                        <constraint firstAttribute="width" constant="20" id="C6M-5S-9nA"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-bell" translatesAutoresizingMaskIntoConstraints="NO" id="HNF-9E-cxQ">
+                    <rect key="frame" x="374" y="60" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="F8J-6m-Cej"/>
+                        <constraint firstAttribute="height" constant="24" id="gFe-Ar-6wz"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZY-m4-Ydx">
+                    <rect key="frame" x="10" y="54" width="40" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="WQa-ZS-8Ek"/>
+                        <constraint firstAttribute="width" constant="40" id="n9r-cr-Ofn"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="didTapCloseAction:" destination="-1" eventType="touchUpInside" id="BR8-hv-ese"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKG-Bi-o4e">
+                    <rect key="frame" x="161" y="67" width="92" height="22"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="logo"/>
+                    <connections>
+                        <action selector="didTapLogoAction:" destination="-1" eventType="touchUpInside" id="xeB-cd-Kuf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oKG-Bi-o4e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="19" id="01E-4K-uqA"/>
+                <constraint firstItem="t8i-NA-ISF" firstAttribute="leading" secondItem="rbn-2q-m1E" secondAttribute="trailing" constant="8" id="0Y5-hj-bt4"/>
+                <constraint firstItem="4Ld-Rv-wYS" firstAttribute="top" secondItem="rbn-2q-m1E" secondAttribute="bottom" constant="10" id="2gV-hK-U7G"/>
+                <constraint firstItem="9ZY-m4-Ydx" firstAttribute="centerX" secondItem="Mgh-e0-rg6" secondAttribute="centerX" id="4g8-5b-T4W"/>
+                <constraint firstItem="rbn-2q-m1E" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="71" id="61e-5j-ebz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="thF-6D-dMy" secondAttribute="bottom" constant="30" id="9Qd-2J-mUM"/>
+                <constraint firstItem="Mgh-e0-rg6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Hg7-Ji-0LV"/>
+                <constraint firstItem="Ofa-p0-N5G" firstAttribute="leading" secondItem="t8i-NA-ISF" secondAttribute="trailing" constant="4" id="I1Z-yS-iQs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HNF-9E-cxQ" secondAttribute="trailing" constant="16" id="JOj-vl-HMi"/>
+                <constraint firstItem="Ofa-p0-N5G" firstAttribute="centerY" secondItem="t8i-NA-ISF" secondAttribute="centerY" id="OOF-5I-dsC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="U7B-Zi-gzT" secondAttribute="bottom" constant="60" id="OgE-XJ-lOe"/>
+                <constraint firstItem="U7B-Zi-gzT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="QQv-B2-QV8"/>
+                <constraint firstItem="4Ld-Rv-wYS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Thw-RO-0bU"/>
+                <constraint firstItem="t8i-NA-ISF" firstAttribute="centerY" secondItem="rbn-2q-m1E" secondAttribute="centerY" id="XbD-Gj-qTS"/>
+                <constraint firstItem="4Ld-Rv-wYS" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Z1S-JE-xaJ"/>
+                <constraint firstItem="HNF-9E-cxQ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="12" id="aZz-5p-D05"/>
+                <constraint firstItem="Mgh-e0-rg6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="fvQ-eA-hEr"/>
+                <constraint firstItem="9ZY-m4-Ydx" firstAttribute="centerY" secondItem="Mgh-e0-rg6" secondAttribute="centerY" id="n0O-2D-UKI"/>
+                <constraint firstItem="rbn-2q-m1E" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="xX8-Tw-k25"/>
+                <constraint firstItem="oKG-Bi-o4e" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="y72-mb-KTq"/>
+                <constraint firstItem="thF-6D-dMy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="yHA-KA-32r"/>
+            </constraints>
+            <point key="canvasLocation" x="139.13043478260872" y="19.419642857142858"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar" width="48" height="48"/>
+        <image name="icon-bell" width="24" height="24"/>
+        <image name="icon-close" width="20" height="21"/>
+        <image name="icon-verify-account" width="17" height="16"/>
+        <image name="logo" width="92" height="20"/>
+    </resources>
+</document>

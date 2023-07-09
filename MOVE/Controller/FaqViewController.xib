@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FaqViewController" customModule="MOVE" customModuleProvider="target">
+            <connections>
+                <outlet property="contactTextLabel" destination="4H8-rG-zvP" id="wWt-2I-9aC"/>
+                <outlet property="faqTableView" destination="JB4-iV-1WG" id="3Ph-up-rya"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cN-pa-zwF">
+                    <rect key="frame" x="20" y="64" width="47" height="26"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="21"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JB4-iV-1WG">
+                    <rect key="frame" x="0.0" y="106" width="414" height="701.5"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Can’t find an answer? Contact us here and we will address your problem as soon as possible." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="4H8-rG-zvP">
+                    <rect key="frame" x="20" y="817.5" width="374" height="34.5"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4H8-rG-zvP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="7ll-rW-Ytb"/>
+                <constraint firstItem="1cN-pa-zwF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="EPJ-2f-s0a"/>
+                <constraint firstItem="JB4-iV-1WG" firstAttribute="top" secondItem="1cN-pa-zwF" secondAttribute="bottom" constant="16" id="GWU-yL-nTP"/>
+                <constraint firstItem="1cN-pa-zwF" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="VcP-8Z-NPQ"/>
+                <constraint firstItem="4H8-rG-zvP" firstAttribute="top" secondItem="JB4-iV-1WG" secondAttribute="bottom" constant="10" id="eVK-QA-jZL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JB4-iV-1WG" secondAttribute="trailing" id="pkK-Rj-NnC"/>
+                <constraint firstItem="JB4-iV-1WG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rdh-Xm-M3G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="4H8-rG-zvP" secondAttribute="bottom" constant="10" id="wrg-XK-XLW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4H8-rG-zvP" secondAttribute="trailing" constant="20" id="yxL-RZ-qZG"/>
+            </constraints>
+            <point key="canvasLocation" x="34.782608695652179" y="-12.053571428571429"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
