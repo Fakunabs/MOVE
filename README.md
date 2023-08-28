@@ -43,5 +43,5 @@ If you'd like to contribute to the project by adding features or fixing issues, 
 
 ## Author
 Xuan Thinh <br>
-Van Vinh <br>
+Van Vinh ([GitHub](https://github.com/VanVinh2612)) <br>
 Email: xuanthinhnguyen2111@gmail.com   
