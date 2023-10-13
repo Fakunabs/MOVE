@@ -1,4 +1,4 @@
-# Elysium
+# MOVE
 
 ## Description
 This project is a simple iOS application about exercise social media.
@@ -12,21 +12,21 @@ This project is a simple iOS application about exercise social media.
 
 1. Clone the project from the repository: 
     ```
-   git clone https://github.com/Fakunabs/Elysium.git
+   git clone https://github.com/Fakunabs/MOVE.git
     ```
 
 3. Navigate to the project directory:
     ```
-    cd Elysium
+    cd MOVE
     ```
 4. Install the required dependencies using CocoaPods:
    ```
    pod install
    ```
 
-5. Open the `Elysium.xcworkspace` file using Xcode:
+5. Open the `MOVE.xcworkspace` file using Xcode:
    ```
-   open Elysium.xcworkspace
+   open MOVE.xcworkspace
    ```
 
 
