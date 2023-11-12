@@ -24,6 +24,8 @@
 		1C5E79DC2A14CBCA00468112 /* SettingProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E79DA2A14CBCA00468112 /* SettingProfileViewController.swift */; };
 		1C5E79DD2A14CBCA00468112 /* SettingProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5E79DB2A14CBCA00468112 /* SettingProfileViewController.xib */; };
 		1C64F5482A3B582700F64E73 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64F5472A3B582700F64E73 /* UIViewController+Extension.swift */; };
+		1C6530572B00842900E7D899 /* FaqTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6530552B00842900E7D899 /* FaqTableViewCell.xib */; };
+		1C6530582B00842900E7D899 /* FaqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6530562B00842900E7D899 /* FaqTableViewCell.swift */; };
 		1C93CF5B2A261FE20004AA2A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CF5A2A261FE20004AA2A /* UIView+Extension.swift */; };
 		1C93CF5F2A26240F0004AA2A /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CF5E2A26240F0004AA2A /* UILabel+Extension.swift */; };
 		1CD11BB02A08B7B40061231C /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD11BAF2A08B7B40061231C /* AppColors.swift */; };
@@ -31,8 +33,6 @@
 		1CD195A929F7CB55003797FA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD195A829F7CB55003797FA /* BaseViewController.swift */; };
 		1CD7A83F2A20B7D50083398F /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7A83D2A20B7D50083398F /* FaqViewController.swift */; };
 		1CD7A8402A20B7D50083398F /* FaqViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A83E2A20B7D50083398F /* FaqViewController.xib */; };
-		1CD7A8442A20BD360083398F /* FaqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7A8422A20BD360083398F /* FaqTableViewCell.swift */; };
-		1CD7A8452A20BD360083398F /* FaqTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8432A20BD360083398F /* FaqTableViewCell.xib */; };
 		1CF97C022A036E3D00967FF4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF97C002A036E3D00967FF4 /* LoginViewController.swift */; };
 		1CF97C032A036E3D00967FF4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF97C012A036E3D00967FF4 /* LoginViewController.xib */; };
 		1F0E076A2A380C7000541D80 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E07692A380C7000541D80 /* UIApplication+Extension.swift */; };
@@ -112,15 +112,15 @@
 		1C5E79DA2A14CBCA00468112 /* SettingProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingProfileViewController.swift; sourceTree = "<group>"; };
 		1C5E79DB2A14CBCA00468112 /* SettingProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingProfileViewController.xib; sourceTree = "<group>"; };
 		1C64F5472A3B582700F64E73 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1C6530552B00842900E7D899 /* FaqTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaqTableViewCell.xib; sourceTree = "<group>"; };
+		1C6530562B00842900E7D899 /* FaqTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqTableViewCell.swift; sourceTree = "<group>"; };
 		1C93CF5A2A261FE20004AA2A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1C93CF5E2A26240F0004AA2A /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		1CD11BAF2A08B7B40061231C /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		1CD11BB12A08D05A0061231C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1CD195A829F7CB55003797FA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		1CD7A83D2A20B7D50083398F /* FaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaqViewController.swift; path = MOVE/Controller/FaqViewController.swift; sourceTree = SOURCE_ROOT; };
-		1CD7A83E2A20B7D50083398F /* FaqViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FaqViewController.xib; path = MOVE/Controller/FaqViewController.xib; sourceTree = SOURCE_ROOT; };
-		1CD7A8422A20BD360083398F /* FaqTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqTableViewCell.swift; sourceTree = "<group>"; };
-		1CD7A8432A20BD360083398F /* FaqTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FaqTableViewCell.xib; sourceTree = "<group>"; };
+		1CD7A83D2A20B7D50083398F /* FaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaqViewController.swift; path = MOVE/Controller/Faqs/FaqViewController.swift; sourceTree = SOURCE_ROOT; };
+		1CD7A83E2A20B7D50083398F /* FaqViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FaqViewController.xib; path = MOVE/Controller/Faqs/FaqViewController.xib; sourceTree = SOURCE_ROOT; };
 		1CF97C002A036E3D00967FF4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CF97C012A036E3D00967FF4 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		1F0E07692A380C7000541D80 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
@@ -223,6 +223,25 @@
 			path = SettingProfile;
 			sourceTree = "<group>";
 		};
+		1C6530542B00841C00E7D899 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1C6530562B00842900E7D899 /* FaqTableViewCell.swift */,
+				1C6530552B00842900E7D899 /* FaqTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		1C65305A2B0084A100E7D899 /* Faqs */ = {
+			isa = PBXGroup;
+			children = (
+				1C6530542B00841C00E7D899 /* cell */,
+				1CD7A83D2A20B7D50083398F /* FaqViewController.swift */,
+				1CD7A83E2A20B7D50083398F /* FaqViewController.xib */,
+			);
+			path = Faqs;
+			sourceTree = "<group>";
+		};
 		1CB10B042A0A35C70021835E /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,25 +288,6 @@
 				1CD195A829F7CB55003797FA /* BaseViewController.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		1CD7A8382A2097FB0083398F /* Faq */ = {
-			isa = PBXGroup;
-			children = (
-				1CD7A8412A20BCFD0083398F /* cell */,
-				1CD7A83D2A20B7D50083398F /* FaqViewController.swift */,
-				1CD7A83E2A20B7D50083398F /* FaqViewController.xib */,
-			);
-			path = Faq;
-			sourceTree = "<group>";
-		};
-		1CD7A8412A20BCFD0083398F /* cell */ = {
-			isa = PBXGroup;
-			children = (
-				1CD7A8422A20BD360083398F /* FaqTableViewCell.swift */,
-				1CD7A8432A20BD360083398F /* FaqTableViewCell.xib */,
-			);
-			path = cell;
 			sourceTree = "<group>";
 		};
 		1CEC6CFA29FA569600EE047C /* login */ = {
@@ -485,8 +485,8 @@
 		1FD927BD29EE774300686D95 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1C65305A2B0084A100E7D899 /* Faqs */,
 				1F35981B2A3232A900E59B28 /* CommunityGuidelines */,
-				1CD7A8382A2097FB0083398F /* Faq */,
 				1C56838C2A11D3C8006C8D59 /* SettingProfile */,
 				1F59EA5D2A0CE1C1003FB48C /* OfflineChannel */,
 				1CEC6CFA29FA569600EE047C /* login */,
@@ -662,6 +662,7 @@
 				1F1218912A09E634002E1059 /* FeaturedTableViewCell.xib in Resources */,
 				1FF2AC942A2F242500106529 /* CommentInputView.xib in Resources */,
 				1F3598242A32332100E59B28 /* CommunityGuidelinesTableViewCell.xib in Resources */,
+				1C6530572B00842900E7D899 /* FaqTableViewCell.xib in Resources */,
 				1F33CAEE29F22F9E00DDC648 /* ItemFeaturedCollectionViewCell.xib in Resources */,
 				1F963EF92A04AA30007CB417 /* Montserrat-Italic.ttf in Resources */,
 				1F76819329F790A400F00DA3 /* VideoSuggestionTableViewCell.xib in Resources */,
@@ -677,7 +678,6 @@
 				1F963EFB2A04AA30007CB417 /* Montserrat-SemiBold.ttf in Resources */,
 				1FF2AC962A2F290400106529 /* VideoInfoView.xib in Resources */,
 				1F542B9729ED540E0098EAB7 /* LaunchScreen.storyboard in Resources */,
-				1CD7A8452A20BD360083398F /* FaqTableViewCell.xib in Resources */,
 				1F35981F2A3232FD00E59B28 /* CommunityGuidelinesViewController.xib in Resources */,
 				1F963EF82A04AA30007CB417 /* Montserrat-Bold.ttf in Resources */,
 				1F542B9429ED540E0098EAB7 /* Assets.xcassets in Resources */,
@@ -761,6 +761,7 @@
 				1C35FCB92A31C07100564632 /* State.swift in Sources */,
 				1F670CA129FBAC4100694FB0 /* FAQ.swift in Sources */,
 				1F0E076C2A38260100541D80 /* PostCommentResponse.swift in Sources */,
+				1C6530582B00842900E7D899 /* FaqTableViewCell.swift in Sources */,
 				1F754FF92A24534A00AA3AD8 /* SuggestionVideo.swift in Sources */,
 				1F542B8D29ED540D0098EAB7 /* SceneDelegate.swift in Sources */,
 				1CD11BB22A08D05A0061231C /* UIColor+Extension.swift in Sources */,
@@ -771,7 +772,6 @@
 				1F68E05229F632900091219D /* NSObject+Extension.swift in Sources */,
 				1F3598152A3180AE00E59B28 /* UIImageView+Extension.swift in Sources */,
 				1F13EEDE29F7963800741665 /* FeaturedHeaderView.swift in Sources */,
-				1CD7A8442A20BD360083398F /* FaqTableViewCell.swift in Sources */,
 				1F0E076A2A380C7000541D80 /* UIApplication+Extension.swift in Sources */,
 				1C4DC42A2A0B5B45008A1D2E /* CategoryCollectionViewCell.swift in Sources */,
 				1F59EA602A0CE202003FB48C /* OfflineChannelViewController.swift in Sources */,
